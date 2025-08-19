@@ -1,1 +1,11 @@
+fun main(){
+  ex2()
+}
+
+fun ex2(){
+    println("Boas-Vindas")
+    print("Qual seu nome? ")
+    val nome:String = readln().toString()
+    println("Olá ${nome}, é um prazer em te conhecer")
+}
 
