@@ -1,1 +1,10 @@
+fun main(){
+  ex8
+}
 
+fun ex8(){
+    print("Digite um número: ")
+    val numero:Double = readln().toDouble()
+    println("O dobro de ${numero} é ${String.format("%.2f", numero*2)}")
+    print("O terço de ${numero} é ${String.format("%.2f", numero*3)}")
+}
