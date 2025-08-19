@@ -1,1 +1,11 @@
+fun main(){
+  ex3()
+}
 
+fun ex3(){
+    print("Qual seu nome? ")
+    val nome2:String = readln().toString()
+    print("Qual seu Salário? ")
+    val salario:Double = readln().toDouble()
+    println("Nome do Funcionario: ${nome2} tem um salário de R$${salario}")
+}
