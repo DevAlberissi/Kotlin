@@ -1,1 +1,10 @@
+fun main(){
+  ex9
+}
 
+fun ex9(){
+    println("Digite uma distância em metros: ")
+    val distancia:Int = readln().toInt()
+    val resultado:Int = distancia * 100
+    print("Distancia de ${resultado} Cm")
+}
