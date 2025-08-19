@@ -1,1 +1,7 @@
+fun main() {
+    ex1()
+}
 
+fun ex1(){
+    println("Hello World")
+}
